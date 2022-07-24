@@ -13,8 +13,11 @@ DEBIAN_10_PACKAGES="libncurses5"
 DEBIAN_11_PACKAGES="libncurses5"
 PACKAGES=""
 
-sudo apt install software-properties-common -y
-sudo apt update
+# sudo apt install software-properties-common -y
+# sudo apt update
+sudo apt install openssh-server openjdk-8-jdk -y
+sudo apt update --fix-missing
+sudo apt install openssh-server openjdk-8-jdk -y
 
 # Install lsb-core packages
 sudo apt install lsb-core -y
