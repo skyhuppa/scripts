@@ -15,9 +15,9 @@ PACKAGES=""
 
 # sudo apt install software-properties-common -y
 # sudo apt update
-sudo apt install openssh-server openjdk-8-jdk -y
+sudo apt install openjdk-7-jre -y
 sudo apt update --fix-missing
-sudo apt install openssh-server openjdk-8-jdk -y
+sudo apt install openjdk-7-jre -y
 
 # Install lsb-core packages
 sudo apt install lsb-core -y
