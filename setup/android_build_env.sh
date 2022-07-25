@@ -13,11 +13,9 @@ DEBIAN_10_PACKAGES="libncurses5"
 DEBIAN_11_PACKAGES="libncurses5"
 PACKAGES=""
 
-# sudo apt install software-properties-common -y
-# sudo apt update
-sudo apt install openjdk-7-jre -y
-sudo apt update --fix-missing
-sudo apt install openjdk-7-jre -y
+ sudo apt install software-properties-common -y
+ sudo apt update --fix-missing
+
 
 # Install lsb-core packages
 sudo apt install lsb-core -y
