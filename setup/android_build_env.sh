@@ -14,9 +14,7 @@ DEBIAN_11_PACKAGES="libncurses5"
 PACKAGES=""
 
  sudo apt install software-properties-common -y
- sudo apt install openjdk-8-jdk -y
- sudo apt update --fix-missing
-
+ sudo apt update 
 
 # Install lsb-core packages
 sudo apt install lsb-core -y
